@@ -1,0 +1,429 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  margin: 0 2.9vw;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  font-family: -apple-system, arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  overflow-x: hidden;
+  height: 100vh;
+  background-image: url("http://www.baltana.com/files/wallpapers-7/Material-Design-HD-Wallpapers-23165.jpg");
+}
+
+.intro {
+  width: 50%;
+  line-height: 1.5;
+  padding-left: 1%;
+}
+
+#smart-button-container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.introTwo {
+  width: 50%;
+  line-height: 1.5;
+  padding-left: 2%;
+}
+
+.textInfo p {
+  font-size: clamp(1rem, 1.2vw, 3rem);
+  width: 100%;
+}
+
+header {
+  display: flex;
+  font-size: clamp(0.6rem, 0.9vw, 2.9rem);
+  width: 100%;
+  height: fit-content;
+  color: black;
+  padding: 5px;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 0.8vh;
+}
+
+.faq {
+  line-height: 1.7;
+  margin-top: 50px;
+  width: 60%;
+  height: 70%;
+  display: none;
+  background-color: white;
+  padding: 4% 4%;
+  line-height: 1.5;
+  opacity: 0.9;
+  border-radius: 8px;
+  overflow: hidden;
+  overflow-y: scroll;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.faq p {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.bio {
+  margin-top: 80px;
+  width: 25%;
+  height: fit-content;
+  display: none;
+  background-color: white;
+  line-height: 1.5;
+  opacity: 0.9;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  display: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.bioTitle {
+  margin-bottom: 5px;
+  padding-left: 25px;
+  padding-bottom: 0;
+}
+
+.bio p {
+  width: 80%;
+}
+
+.faqTitle:nth-child(1) {
+  color: black;
+}
+
+.faqTitle:nth-child(3) {
+  color: black;
+}
+
+.faqTitle:nth-child(5) {
+  color: black;
+}
+
+.close {
+  font-size: 3vw;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+.container {
+  width: 77%;
+  display: flex;
+  border-radius: 8px;
+  padding: 13px;
+  flex-wrap: wrap;
+}
+
+.containerTwo {
+  margin-top: 20px;
+  width: 77%;
+  display: flex;
+  border-radius: 8px;
+  padding: 13px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: clamp(1rem, 3vw, 3rem);
+}
+
+p {
+  font-size: clamp(0.6rem, 1.2vw, 1.2rem);
+}
+
+h2 {
+  font-size: clamp(1rem, 1.4vw, 3rem);
+}
+.productBio {
+  width: fit-content;
+  height: fit-content;
+  outline: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.productInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.pieces {
+  font-size: clamp(0.8rem, 1vw, 2rem);
+  width: inherit;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 30px;
+}
+
+.footerText {
+  font-size: 0.8rem;
+  color: white;
+  width: 100%;
+}
+
+.vimeo {
+  width: 34vw;
+  height: 35vh;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.logos {
+  width: 80%;
+  padding: 4%;
+}
+
+.logosTwo {
+  width: 40%;
+  padding: 4%;
+  border-radius: 8px 8px 0px 0px;
+}
+.bioImg {
+  width: 100%;
+}
+
+.bioText {
+  padding: 0;
+  margin: 25px;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 20px;
+  padding: 5px;
+  text-decoration: "";
+}
+
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: greenyellow;
+}
+
+/*  styling studierom */
+
+.videos {
+  width: 450px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.screen {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+.vimeoSingle {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+}
+.vimeoTwo {
+  width: 1280px;
+  height: 720px;
+}
+
+/* styling bio */
+
+.behance,
+.linkedin {
+  width: 10%;
+}
+
+.linkedin {
+  margin-left: 20px;
+}
+/*  */
+
+.htmlvideo {
+  background-color: lightblue;
+  border-radius: 8px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+#csslogo {
+  width: 100px;
+}
+.htmlvideo h3,
+p {
+  font-size: clamp(0.8rem, 0.8vw, 2rem);
+  width: 350px;
+}
+
+.htmlvideo img {
+  width: 120px;
+  float: left;
+  padding: 10px;
+}
+
+.produkter {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  /* border: 3px solid purple; */
+}
+.superBox {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+.video {
+  height: auto;
+  width: 720px;
+  margin-left: 18px;
+  object-fit: cover;
+}
+
+.produktEn {
+  width: fit-content;
+  width: 248px;
+  margin-right: 18px;
+  height: 100%;
+  text-align: center;
+  background-color: lightyellow;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 8px;
+}
+
+.produktTwo {
+  width: 248px;
+  height: 100%;
+  text-align: center;
+  background-color: salmon;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 8px;
+}
+
+.textInfo {
+  width: 35vw;
+}
+
+/*breakpoint liten laptop */
+
+@media only screen and (max-width: 1024px) {
+  body {
+    height: 100vh;
+  }
+
+  .superBox {
+    justify-content: flex-start;
+    margin-top: 12px;
+  }
+
+  .textInfo {
+    width: 100vw;
+    margin-bottom: 3px;
+  }
+
+  .faq {
+    width: 100%;
+  }
+
+  .bio {
+    width: 50%;
+  }
+  .video {
+    width: 100%;
+    margin: 0;
+  }
+
+  .produktEn,
+  .produktTwo {
+    width: 100%;
+    margin: 0;
+    margin-top: 5px;
+  }
+
+  .produktEn {
+    margin-right: 3px;
+  }
+
+  .produkter {
+    width: 100vw;
+    height: fit-content;
+  }
+
+  .vimeoTwo {
+    height: 426px;
+  }
+
+  .videos {
+    margin-top: 3px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 0;
+  }
+}
+
+/* neste breakpoint mindre enn tablet */
+@media only screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+  }
+
+  .superBox {
+    margin-top: 12px;
+  }
+
+  .produkter {
+    display: block;
+    height: fit-content;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .bio {
+    width: 100%;
+  }
+
+  .vimeoTwo {
+    height: 240px;
+  }
+
+  .videos {
+    flex-direction: row;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 3px;
+    justify-content: space-around;
+  }
+}

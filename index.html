@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Kodesupport</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- paypal  -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures optimal rendering on mobile devices. -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Optimal Internet Explorer compatibility -->
+
+        <!--  -->
+        <link rel="stylesheet" href="./styling/style.css">
+
+        
+    </head>
+    <body>
+        <header>
+            <li class="links hjem">Hjem</li>
+            <li class="links sporsmal">Spørsmål</li>
+            <li class="links studierom">Studierom</li>
+            <li class="links kursholder">Kursholder</li>
+        </header>
+       
+        <!-- modals -->
+
+        <div class="faq">
+            <h2 class="faqTitle">Hvem er kurset egnet for?</h2>
+
+            <p>Introduksjonkurset er laget for de skal starte på programmeringsstudier og de som ønsker å se om koding er noe for dem før forplikter seg til noe. 
+            </p>
+
+            <h2 class="faqTitle">Hvor kan jeg lære mer?</h2>
+
+            <p>Hvis du har fullført kurset anbefaler jeg deg å søke studieplass på universiteter eller høyskoler. Hvis du er flink med studieteknikker og har erfaring med å studere så finnes også materiale ute på nettet, f.eks. Youtube, Udemy og Scrimba.</p>
+
+            <h2 class="faqTitle">Hvordan er parprogrammering?</h2>
+
+            <p>Når vi parprogrammerer så programmerer vi sammen i sanntid. Det virker på samme måte som f.eks. Google Docs og vi deler samme dokumentet. Forskjellen er at vi bruker Microsoft Visual Studio Code. På den måten kan jeg gi deg tilbakemelding umiddelbart og løse kodingen sammen.</p>
+
+        </div>
+
+
+        <!-- bio -->
+
+        <div class="bio">
+            
+            <img class="bioImg" src="https://cdn.pixabay.com/photo/2019/11/07/08/40/dog-4608266_960_720.jpg" alt="">
+            <h2 class="bioTitle">An X. X.</h2>
+            <p class="bioText"> På dagtid jobber jeg som utvikler i Fornebu, mens kveldstid drifter jeg nettkurset og vedlikerholder denne siden.</p>
+            <img src="./media/linkedin.png" alt="" class="linkedin">
+            <img src="./media/behance.png" alt="" class="behance">
+
+        </div>
+        <div class="superBox">
+            <div class="textInfo">
+              <h1>Frontend-programmering</h1>
+              <p class="para">Velkommen til introduksjonskurs i Frontend-programmering.</p>
+            <p>Kurs i Angular og React er tilgjengelig nå!</p>
+            <sup><i>Oppdatert: 31.des 2020</i></sup>
+            </div>
+        
+            <video class="video" src="./media/matrix.mp4" type="video/mp4" controls poster="https://cdn.pixabay.com/photo/2016/02/19/11/19/computer-1209641_960_720.jpg">dette er lokal video</video>
+        
+            <div class="produkter">
+              <div class="produktEn">
+                
+                    <img class="logos" src="./media/trelogo.png" alt=""></img>
+                    
+                        <p class="pieces">3 videoer og 3 timer parprogrammering <br><h2>750 kr</h2></p>
+                        
+                   
+                     <div id="smart-button-container">
+                        <div style="text-align: center;">
+                        <div id="paypal-button-container"></div>
+                        </div>
+                    </div> 
+              </div>
+
+              <div class="produktTwo">
+                <img class="logosTwo" src="./media/laptop.png" alt=""></img>
+                    
+                <p class="pieces"> Prøv 30 min med parprogrammering<br><h2>99 kr</h2></p>
+                
+           
+            <div id="smart-button-container">
+                <div style="text-align: center;">
+                <div id="paypal-button-containerTwo"></div>
+                </div>
+            </div> 
+              </div>
+            </div>
+
+         <footer>
+        <p class="footerText">Nettsiden bruker ikke informasjonskapsler, fordi det gir færre klikk og raskere navigering.</p>
+      
+    </footer>  
+    
+    </body>
+
+    <script src="./script/script.js"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=K" data-sdk-integration-source="button-factory"></script>
+    <script src="./script/pp.js"></script>
+    
+
+   
+  
+</html>
